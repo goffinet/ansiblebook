@@ -1,2 +1,11 @@
 [webservers]
-testserver ansible_host=127.0.0.1 ansible_port=2222
+app1 ansible_port=22
+app2
+
+[dbservers]
+db
+
+[all:vars]
+ansible_connection=ssh
+ansible_user=root
+ansible_ssh_pass=testtest
