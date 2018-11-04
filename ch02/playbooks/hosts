@@ -3,6 +3,9 @@ www01
 www02
 
 [all:vars]
+ansible_connection=ssh
+ansible_user=user
+ansible_ssh_pass=testtest
 ansible_become=true
 ansible_become_user=user
 ansible_become_pass=testtest
