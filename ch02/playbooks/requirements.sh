@@ -1,6 +1,6 @@
-pip uninstall cryptography
+pip uninstall -y cryptography
 pip install cryptography
-pip uninstall pyopenssl
+pip uninstall -y pyopenssl
 pip install pyopenssl
-apt remove --purge python-openssl
-apt install python-openssl
+apt -y remove --purge python-openssl
+apt -y install python-openssl
