@@ -1,1 +1,1 @@
-quick-launch.sh $1 ubuntu1804
+for x in 1 2 ; do quick-launch.sh www0$x ubuntu1604 ; done
